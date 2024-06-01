@@ -1,0 +1,128 @@
+.HeaderTop{
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #028391;
+  padding: 1rem;
+}
+
+.HeaderTop .HeadertopLeft ul,
+.HeaderTop .HeadertopRight ul{
+  width: 100%;
+  display: flex;
+}
+
+.HeaderTop .HeadertopLeft ul li{
+  margin-right: 50px;
+  list-style: none;
+}
+
+.HeaderTop .HeadertopRight ul li{
+  margin-left: 50px;
+  list-style: none;
+}
+.HeaderTop ul a{
+  text-decoration: none;
+  color: #028391;
+  font-size: 16px;
+}
+.HeaderTop ul a:hover{
+  color: #01204E;
+}
+
+@media screen and (max-width: 53.125em) {
+  .HeaderTop{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .HeaderTop .HeadertopLeft ul,
+  .HeaderTop .HeadertopRight ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .HeaderTop .HeadertopRight ul li,
+  .HeaderTop .HeadertopLeft ul li{
+    margin: 0;
+  }
+}
+
+
+.pathWrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.pathWrapper .iconWrapper{
+  margin-right: 10px;
+  background-color: #028391;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: white;
+}
+.pathWrapper .pathName{
+  color:#028391;
+}
+.HeaderBottom{
+  border:2px solid #F6DCAC;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  margin-top: 0.8rem;
+  border-radius: 7px;
+}
+
+.HeaderBottom .HeaderBottomLeft img{
+  width: 100px;
+}
+.HeaderBottom .HeaderBottomRight ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.HeaderBottom .HeaderBottomRight ul li{
+  margin-left: 60px;
+  list-style: none;
+}
+
+.HeaderBottom .HeaderBottomRight ul li .linkk{
+  text-decoration: none;
+}
+.HeaderBottom .HeaderBottomRight ul li:hover{
+  background-color:#01204E;
+  border-radius: 7px;
+}
+
+@media screen and (max-width: 53.125em) {
+  .HeaderBottom{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 45.625em) {
+  .HeaderBottom .HeaderBottomRight ul{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+  }
+  .HeaderBottom .HeaderBottomRight ul li{
+    margin: 12px;
+  }
+}
+
+@media screen and (max-width: 35.125em) {
+.pathWrapper .iconWrapper{
+  font-size: 16px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  }
+.pathWrapper .pathName{
+  font-size: 10px;
+}
+}

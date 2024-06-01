@@ -1,0 +1,88 @@
+.Tracks{
+  padding: 2rem;
+  background-color: #F6DCAC;
+}
+.Tracks .TrackHeader{
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.Tracks .ParentCourse{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 80%;
+  margin: 0 auto;
+}
+.TrackCourse{
+  width: 100%;
+  background-color: #FEAE6F;
+  display: flex;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 30px;
+  padding: 2rem;
+}
+.TrackCourse .TrackCourseleft{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.TrackCourse .TrackCourseleft img{
+  width: 90%;
+  border-radius: 20px;
+}
+.TrackCourse .TrackCourseleft .date{
+  text-transform: capitalize;
+  margin: 10px 0;
+  text-align: center;
+}
+.TrackCourse .TrackCourseleft .course{
+  font-size: 50px;
+  font-style: italic;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.TrackCourse .TrackCourseleft .rating{
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.TrackCourse .TrackCourseleft .CourseDetail{
+  font-size: 16px;
+  text-align: center;
+}
+.TrackCourse .TrackCourseRight{
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.TrackCourse .TrackCourseRight p{
+  font-size: 16px;
+  line-height: 1.8rem;
+}
+@media screen and (max-width: 54.375em) {
+  .Tracks{
+    padding: 1rem;
+  }
+  .Tracks .ParentCourse{
+    width: 100%;
+  }
+  .TrackCourse .TrackCourseRight p{
+    font-size: 13px;
+    font-weight: 600;
+  }
+  @media screen and (max-width: 40.625em) {
+    .TrackCourse{
+      flex-direction: column;
+    }
+    .TrackCourse .TrackCourseleft{
+      width: 100%;
+    }
+    .TrackCourse .TrackCourseRight{
+      width: 100%;
+    }
+  }
+}

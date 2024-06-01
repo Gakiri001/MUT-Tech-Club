@@ -1,0 +1,100 @@
+.Leadership{
+  background-color: #F6DCAC;
+  padding: 2rem;
+}
+
+.Leadership h1{
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+  margin-bottom: 10px;
+  text-decoration:underline;
+}
+
+.Leadership .Leaders{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 2rem;
+}
+
+.LeadersWrapper{
+  width: 45%;
+  background-color: #FEAE6F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 1);
+}
+.LeadersWrapper img{
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  margin-bottom: 20px;
+  width: 100%;
+  transition: 2s;
+}
+.LeadersWrapper img:hover{
+  scale: 1.1;
+}
+.LeadersWrapper h1{
+  font-size: 40px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.LeadersWrapper h3{
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 10px;
+  color: #585858;
+}
+.LeadersWrapper p{
+  font-size: 16px;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.LeadersWrapper .links{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.LeadersWrapper .links .linksocial{
+  width: 40px;
+  height: 40px;
+  background-color: #F6DCAC;
+  color: black;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+}
+
+.LeadersWrapper .links .linksocial:hover{
+  background-color: black;
+  color: #F6DCAC;
+}
+
+@media screen and (max-width: 74.375em) {
+  .Leadership .Leaders{
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .LeadersWrapper{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 40.625em) {
+  .Leadership{
+    padding: 1rem;
+  }
+  .Leadership .Leaders{
+    width: 100%;
+
+  }
+}
