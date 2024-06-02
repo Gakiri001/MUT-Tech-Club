@@ -85,7 +85,12 @@ function Tracks() {
             </div>
             <div className="studentDetails">
               <label htmlFor="year">Year of study</label>
-              <input type="number" id="year" className="inputDetails" placeholder="year of study"/>
+              <input
+                type="number"
+                id="year"
+                className="inputDetails"
+                placeholder="year of study"
+              />
             </div>
             <div className="studentDetails">
               <label htmlFor="track">Desired Track</label>
@@ -99,7 +104,12 @@ function Tracks() {
               </select>
             </div>
             <div className="studentDetails">
-              <input type="submit" id="submit" className="inputDetails" name="Register"/>
+              <input
+                type="submit"
+                id="submit"
+                className="inputDetails"
+                name="Register"
+              />
             </div>
           </form>
         </div>

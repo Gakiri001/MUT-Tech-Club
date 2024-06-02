@@ -1,0 +1,163 @@
+:root {
+  --colour11: #f6dcac;
+  --colour22: #feae6f;
+  scroll-behavior: smooth;
+}
+.Events {
+  padding: 2rem;
+  background-color: var(--colour11);
+}
+.Events h1 {
+  text-align: center;
+  font-size: 60px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.Events .EventParent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.Events .EventParent .Eventcard {
+  width: 45%;
+  background-color: var(--colour22);
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.Events .EventParent .Eventcard .TopEventCard {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.Events .svg {
+  font-size: 35px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--colour11);
+  display: grid;
+  place-content: center;
+}
+
+.Events .EventParent .Eventcard .TopEventCard h3 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--colour11);
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.Events .EventParent .Eventcard .BottomEventCard h2 {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.Events .EventParent .Eventcard .BottomEventCard h4 {
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.Events .EventParent .Eventcard hr {
+  background-color: black;
+  height: 5px;
+  margin-bottom: 10px;
+}
+.Events .EventParent .Eventcard .BottomEventCard p {
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.Events .EventParent .Eventcard .FooterEventcard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.Events .EventParent .Eventcard .FooterEventcard a {
+  color: #585858;
+  background-color: var(--colour11);
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.Events .EventParent .Eventcard .FooterEventcard h5 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--colour11);
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.Events .EventParent .Eventcard .FooterEventcard a:hover {
+  color: var(--colour11);
+  background-color: #585858;
+}
+
+@media screen and (max-width: 53.125em) {
+  .Events .EventParent .Eventcard {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 33.75em) {
+  .Events {
+    padding: 1rem;
+  }
+  .Events .EventParent .Eventcard {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 26.875em) {
+  .Events h1 {
+    font-size: 40px;
+  }
+
+  .Events .svg {
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+  }
+  .Events .EventParent .Eventcard .TopEventCard h3 {
+    width: 60px;
+    height: 60px;
+    font-size: 11px;
+  }
+  .Events .EventParent .Eventcard .BottomEventCard h2 {
+    font-size: 35px;
+  }
+  .Events .EventParent .Eventcard .BottomEventCard h4 {
+    font-size: 13px;
+  }
+  .Events .EventParent .Eventcard .FooterEventcard a {
+    padding: 15px 30px;
+    font-size: 12px;
+  }
+  .Events .EventParent .Eventcard .FooterEventcard h5 {
+    width: 60px;
+    height: 60px;
+    font-size: 11px;
+  }
+}
