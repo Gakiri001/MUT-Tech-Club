@@ -98,6 +98,9 @@ function Tracks() {
                 <option value="">Power Platform</option>
               </select>
             </div>
+            <div className="studentDetails">
+              <input type="submit" id="submit" className="inputDetails" name="Register"/>
+            </div>
           </form>
         </div>
       </section>
