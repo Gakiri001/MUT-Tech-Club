@@ -5,6 +5,7 @@ import Home from "./pages/Home/Home";
 import Footer from "./components/Footer/Footer";
 import Leadership from "./pages/Leadership/Leadership";
 import Tracks from "./pages/Tracks/Tracks";
+import Events from "./pages/Events/Events";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/Leadership" element={<Leadership />} />
         <Route path="/Tracks" element={<Tracks />} />
+        <Route path="/Events" element={<Events />} />
       </Routes>
       <Footer />
     </BrowserRouter>

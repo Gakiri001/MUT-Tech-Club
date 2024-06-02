@@ -1,7 +1,6 @@
 .Tracks {
   padding: 2rem;
   background-color: #f6dcac;
-  height: 60000px;
 }
 .Tracks .TrackHeader {
   text-align: center;
@@ -91,8 +90,7 @@
 .RegisterWrapper {
   width: 80%;
   margin: 20px auto;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(../../assets/c5.avif);
+  background-color: #feae6f;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 30px;
   padding: 2rem;
@@ -102,19 +100,17 @@
 }
 .RegisterWrapper h1 {
   font-size: 40px;
-  color: #feae6f;
   text-align: center;
   font-style: italic;
   margin-bottom: 20px;
 }
 .RegisterWrapper .studentDetails {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
 }
 
 .RegisterWrapper .studentDetails label {
-  color: #feae6f;
   font-size: 20px;
   text-align: center;
   margin-bottom: 10px;
@@ -132,6 +128,9 @@
   .RegisterWrapper {
     width: 100%;
   }
+  .RegisterWrapper .studentDetails {
+    margin-bottom: 25px;
+  }
 }
 
 @media screen and (max-width: 40.625em) {
@@ -140,5 +139,8 @@
   }
   .RegisterWrapper h1 {
     font-size: 30px;
+  }
+  .RegisterWrapper .studentDetails {
+    margin-bottom: 30px;
   }
 }

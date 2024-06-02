@@ -39,7 +39,7 @@ function HeaderBottom() {
             </Link>
           </li>
           <li>
-            <Link className="linkk" to="/">
+            <Link className="linkk" to="/Events">
               <Pathto icon={<MdEventAvailable />} pathname="Events" />
             </Link>
           </li>
