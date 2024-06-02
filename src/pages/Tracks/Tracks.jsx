@@ -85,7 +85,7 @@ function Tracks() {
             </div>
             <div className="studentDetails">
               <label htmlFor="year">Year of study</label>
-              <input type="date" id="year" className="inputDetails" />
+              <input type="number" id="year" className="inputDetails" placeholder="year of study"/>
             </div>
             <div className="studentDetails">
               <label htmlFor="track">Desired Track</label>
