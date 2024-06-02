@@ -1,5 +1,6 @@
-.HeroWrapper{
-  background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(../../assets/c4.avif);
+.HeroWrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../../assets/c4.avif);
   height: 80vh;
   display: flex;
   background-size: cover;
@@ -9,24 +10,24 @@
   align-items: center;
 }
 
-.HeroWrapper h1{
+.HeroWrapper h1 {
   font-size: 50px;
   color: white;
   font-style: italic;
 }
 .HeroWrapper h3 span,
-.HeroWrapper h1 span{
+.HeroWrapper h1 span {
   color: #028391;
 }
-.HeroWrapper h3{
+.HeroWrapper h3 {
   color: white;
   font-size: 25px;
 }
-.HeroWrapper .Button{
+.HeroWrapper .Button {
   margin-top: 30px;
 }
 
-.HeroWrapper .linkjoin{
+.HeroWrapper .linkjoin {
   padding: 20px;
   display: inline-block;
   background-color: white;
@@ -37,119 +38,117 @@
   font-size: 20px;
 }
 
-.HeroWrapper .linkjoin:hover{
-  background-color:  #028391;
+.HeroWrapper .linkjoin:hover {
+  background-color: #028391;
   color: white;
 }
 
-.HeroWrapper .LinkDev{
+.HeroWrapper .LinkDev {
   padding: 20px;
   display: inline-block;
-  background-color:  #028391;
-  color:white;
+  background-color: #028391;
+  color: white;
   border-radius: 7px;
   text-decoration: none;
   font-size: 20px;
 }
-.HeroWrapper .LinkDev:hover{
+.HeroWrapper .LinkDev:hover {
   background-color: white;
   color: #028391;
 }
 
 @media screen and (max-width: 53.125em) {
-  .HeroWrapper h1{
+  .HeroWrapper h1 {
     text-align: center;
     font-size: 30px;
   }
-  .HeroWrapper h3{
+  .HeroWrapper h3 {
     color: white;
     font-size: 15px;
   }
 }
 @media screen and (max-width: 33.125em) {
-  .HeroWrapper h1{
+  .HeroWrapper h1 {
     text-align: center;
   }
-  .HeroWrapper .linkjoin{
+  .HeroWrapper .linkjoin {
     margin-right: 8px;
   }
 }
 @media screen and (max-width: 26.875em) {
-  .HeroWrapper .linkjoin{
+  .HeroWrapper .linkjoin {
     padding: 10px;
     font-size: 15px;
   }
-  .HeroWrapper .LinkDev{
-     padding: 10px;
-     font-size: 15px;
+  .HeroWrapper .LinkDev {
+    padding: 10px;
+    font-size: 15px;
   }
 }
 
-.ClubGoals{
-  background-color: #FEAE6F;
+.ClubGoals {
+  background-color: #feae6f;
 }
-.ClubGoals h1{
+.ClubGoals h1 {
   text-align: center;
   font-size: 50px;
   font-style: italic;
 }
-.ClubGoals h4{
+.ClubGoals h4 {
   font-size: 26px;
   text-align: center;
 }
-.ClubGoals .Divdetails{
+.ClubGoals .Divdetails {
   display: flex;
   padding: 1rem;
   justify-content: space-between;
 }
 
-
-.MottosWrapper{
-  background-color: #F6DCAC;
+.MottosWrapper {
+  background-color: #f6dcac;
   width: 30%;
   padding: 1rem;
   border-radius: 10px;
 }
 
-.MottosWrapper .MottoiconWrapper{
+.MottosWrapper .MottoiconWrapper {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #FEAE6F;
+  background-color: #feae6f;
   display: grid;
   place-content: center;
   font-size: 20px;
 }
 
-.MottosWrapper .MottoHeaderWrapper{
+.MottosWrapper .MottoHeaderWrapper {
   margin: 1rem 0;
 }
-.MottosWrapper .MottoDetailsWrapper{
+.MottosWrapper .MottoDetailsWrapper {
   line-height: 1.5rem;
 }
 
 @media screen and (max-width: 35.625em) {
-  .ClubGoals .Divdetails{
+  .ClubGoals .Divdetails {
     display: flex;
     flex-direction: column;
     gap: 2rem;
   }
-  .MottosWrapper{
+  .MottosWrapper {
     width: 100%;
   }
 }
 
-
-.Aboutus{
+.Aboutus {
   display: flex;
   padding: 2rem;
 }
-.Aboutus img{
+.Aboutus img {
   width: 30%;
   border-radius: 10px;
   padding: 0 1rem;
 }
-.Aboutus .DivAboutWrapper{
+.Aboutus .DivAboutWrapper {
   width: 70%;
   display: flex;
   flex-direction: column;
@@ -157,96 +156,94 @@
   justify-content: center;
   row-gap: 10px;
 }
-.Aboutus .DivAboutWrapper h1{
+.Aboutus .DivAboutWrapper h1 {
   font-size: 50px;
   font-style: italic;
 }
-.Aboutus .DivAboutWrapper p{
+.Aboutus .DivAboutWrapper p {
   font-size: 16px;
   line-height: 1.5rem;
 }
-.AboutusDetailsWrapper{
-  border: #01204E solid 2px;
+.AboutusDetailsWrapper {
+  border: #01204e solid 2px;
   padding: 0.8rem;
 }
 
-.AboutusDetailsWrapper .AbouticonWrapper{
+.AboutusDetailsWrapper .AbouticonWrapper {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #01204E;
+  background-color: #01204e;
   display: grid;
   place-content: center;
   color: white;
 }
 
 @media screen and (max-width: 43.125em) {
-  .Aboutus{
+  .Aboutus {
     display: flex;
     flex-direction: column;
   }
-  .Aboutus img{
+  .Aboutus img {
     width: 100%;
     padding: 0 1rem;
   }
-  .Aboutus .DivAboutWrapper{
+  .Aboutus .DivAboutWrapper {
     width: 100%;
   }
 }
 
-
 /*Testimonies*/
-.Testimonials{
-  padding:2rem ;
+.Testimonials {
+  padding: 2rem;
 }
 
-.Testimonials h1{
+.Testimonials h1 {
   text-align: center;
   font-size: 50px;
   font-style: italic;
 }
 
-.Testimonials .MotherdivTestmoy{
+.Testimonials .MotherdivTestmoy {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 2rem;
 }
-.Testimonials .MotherdivTestmoy .EachTestmony{
+.Testimonials .MotherdivTestmoy .EachTestmony {
   width: 30%;
-  border: #01204E 2px solid;
+  border: #01204e 2px solid;
   border-bottom-left-radius: 50px;
   border-top-right-radius: 50px;
   padding: 1.5rem;
   box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 1);
 }
 
-.Testimonials .MotherdivTestmoy .EachTestmony img{
-  width: 100%
+.Testimonials .MotherdivTestmoy .EachTestmony img {
+  width: 100%;
 }
 
-.TestmoyDetails .Testmony{
+.TestmoyDetails .Testmony {
   line-height: 1.5rem;
   font-size: 15px;
 }
 
-.TestmoyDetails h3{
+.TestmoyDetails h3 {
   font-size: 20px;
   margin: 10px auto;
 }
 
-.TestmoyDetails h6{
+.TestmoyDetails h6 {
   font-size: 12px;
 }
 
 @media screen and (max-width: 45em) {
-  .Testimonials .MotherdivTestmoy .EachTestmony{
+  .Testimonials .MotherdivTestmoy .EachTestmony {
     width: 45%;
   }
 }
 @media screen and (max-width: 26.875em) {
-  .Testimonials .MotherdivTestmoy .EachTestmony{
+  .Testimonials .MotherdivTestmoy .EachTestmony {
     width: 100%;
   }
 }
-
