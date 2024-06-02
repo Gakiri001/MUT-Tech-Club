@@ -1,6 +1,11 @@
 import "./Home.css";
 import person from "../../assets/pro1.avif";
 import personfemale from "../../assets/pro3.avif";
+import person1 from "../../assets/male1.jpg";
+import personfemale1 from "../../assets/female2.jpg";
+import person2 from "../../assets/male7.jpg";
+import personfemale2 from "../../assets/female4.jpg";
+
 
 const TestmoyDetails = ({ image, detail, name, signature }) => {
   return (
@@ -38,7 +43,7 @@ function Testimonials() {
           </div>
         </div>
         <div className="EachTestmony">
-          <TestmoyDetails image={person} />
+          <TestmoyDetails image={person1} />
           <div className="personalTestmoy">
             <TestmoyDetails
               detail="The Murang'a University Tech Club was instrumental in shaping my career. The hands-on projects and collaborative environment prepared me perfectly for my role as a software developer."
@@ -48,7 +53,7 @@ function Testimonials() {
           </div>
         </div>
         <div className="EachTestmony">
-          <TestmoyDetails image={personfemale} />
+          <TestmoyDetails image={personfemale1} />
           <div className="personalTestmoy">
             <TestmoyDetails
               detail="Joining the Murang'a University Tech Club was a turning point in my academic journey. The skills I gained in data analytics paved the way for my current position as a data analyst."
@@ -58,7 +63,7 @@ function Testimonials() {
           </div>
         </div>
         <div className="EachTestmony">
-          <TestmoyDetails image={person} />
+          <TestmoyDetails image={person2} />
           <div className="personalTestmoy">
             <TestmoyDetails
               detail="The practical experience and networking opportunities I gained at the Murang'a University Tech Club were invaluable. They laid the foundation for my successful career as a network engineer."
@@ -68,7 +73,7 @@ function Testimonials() {
           </div>
         </div>
         <div className="EachTestmony">
-          <TestmoyDetails image={personfemale} />
+          <TestmoyDetails image={personfemale2} />
           <div className="personalTestmoy">
             <TestmoyDetails
               detail="Being part of the Murang'a University Tech Club boosted my confidence and technical skills, directly contributing to my current role as a cybersecurity specialist. It was a transformative experience."
