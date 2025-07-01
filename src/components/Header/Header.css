@@ -92,14 +92,9 @@
 .HeaderBottom .HeaderBottomRight ul li .linkk {
   text-decoration: none;
 }
-.HeaderBottom .HeaderBottomRight ul li .linkk:hover {
-   color: #01204e;
-}
-.pathWrapper .iconWrapper:hover {
-  background-color: #01204e;
-}
+
 .HeaderBottom .HeaderBottomRight ul li:hover {
-  color: #01204e;
+  background-color: #01204e;
   border-radius: 7px;
 }
 
