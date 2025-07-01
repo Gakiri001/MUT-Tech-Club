@@ -93,7 +93,7 @@
   text-decoration: none;
 }
 .HeaderBottom .HeaderBottomRight ul li:hover {
-  background-color: #01204e;
+  color: #01204e;
   border-radius: 7px;
 }
 
